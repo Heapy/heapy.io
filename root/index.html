@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Heapy - Free and Open-Source Software</title>
+  <link rel="stylesheet" href="/css/bulma.min.css">
+
+  <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="/favicon-144.png">
+  <link rel="mask-icon" href="/mask-favicon.svg" color="#252525">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon-32.png" sizes="32x32">
+  <link rel="shortcut icon" href="/favicon-16.png" sizes="16x16">
+  <link rel="shortcut icon" href="/favicon-196.png" sizes="196x196">
+  <link rel="apple-touch-icon-precomposed" href="/favicon-180.png">
+  <link rel="apple-touch-icon-precomposed" sizes="196x196" href="/favicon-196.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/favicon-180.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon-144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon-120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon-76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon-57.png">
+</head>
+<body class="has-navbar-fixed-top">
+<nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/logo.svg" width="28" height="28" alt="Logo"/>
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="main-menu" class="navbar-menu">
+    <div class="navbar-start">
+      <a href="/" class="navbar-item is-active">
+        Home
+      </a>
+
+      <a href="https://github.com/Heapy" class="navbar-item">
+        GitHub
+      </a>
+
+      <a href="/bjug" class="navbar-item">
+        Belarus JUG
+      </a>
+
+      <a href="/communities" class="navbar-item">
+        Belarus Communities
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Heapy
+      </h1>
+      <h2 class="subtitle">
+        Free and Open-Source software
+      </h2>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <article class="container content is-medium">
+    <h3>Open Source Software</h3>
+
+    <p>
+      We develop number of open-source projects:
+    </p>
+
+    <ul>
+      <li><a href="https://github.com/Heapy/remark-kotlin">remark-kotlin</a> - HTML2MD Converter</li>
+      <li><a href="https://github.com/Heapy/komodo">komodo</a> - Kotlin Modular Framework</li>
+      <li><a href="https://github.com/Heapy/kpress">kpress</a> - Modern static site generator written in Kotlin</li>
+      <li><a href="https://github.com/Heapy/Heap">Heap</a> - Life and collaboration assistant</li>
+      <li>And other. See <a href="https://github.com/Heapy">full list</a>.</li>
+    </ul>
+
+    <p>
+      We always open for contributions. If you like our projects and ideas - feel free to open issues/pull requests, use
+      and spread this projects!
+    </p>
+
+    <h3>Team</h3>
+
+    <p>Currently on Heapy projects works:</p>
+
+    <ul>
+      <li><a href="https://github.com/IRus">Ibragimov Ruslan</a></li>
+    </ul>
+
+    <h3>Misc</h3>
+
+    <p>
+      There are also archive of <a href="https://t.me/kotlin_lang">@kotlin_lang</a>
+      telegram chat: <a href="/t/me/kotlin_lang">view</a>.
+    </p>
+  </article>
+</section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; <a href="https://heapy.io/">Heapy</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener("click", () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle("is-active");
+                    $target.classList.toggle("is-active");
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>
