@@ -10,13 +10,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="111.26904mm"
-   height="111.26904mm"
-   viewBox="0 0 111.26904 111.26904"
+   width="110.36897mm"
+   height="110.36897mm"
+   viewBox="0 0 110.36897 110.36897"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="heapy_io.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/yoda/dev/Heapy/heapy.io/logo.svg.png"
+   inkscape:export-xdpi="185.23"
+   inkscape:export-ydpi="185.23">
   <defs
      id="defs2">
     <linearGradient
@@ -36,13 +39,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="-151.63095"
-     inkscape:cy="65.738374"
+     inkscape:cx="125.06092"
+     inkscape:cy="182.03817"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="2493"
-     inkscape:window-height="1385"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -54,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +65,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Background"
-     style="display:none">
+     style="display:none"
+     transform="translate(-0.30230698,-0.70900047)">
     <rect
        style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect917"
@@ -75,17 +79,18 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Result"
-     transform="translate(-1.4398773,-1.3505943)"
+     transform="translate(-1.7421843,-2.0595948)"
      style="display:inline">
     <g
        style="display:inline"
-       transform="translate(-0.14762271,0.25885226)"
+       transform="matrix(0.9,0,0,0.9,5.5598067,5.9573753)"
        id="g2400">
       <path
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#515151;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:normal"
-         d="M 209.71484 2.6796875 A 208.57142 208.57142 0 0 0 134.18555 16.837891 L 134.18555 174.18359 C 145.64388 156.64887 159.09939 143.53992 174.55078 134.85938 C 190.17578 126.17882 208.14453 121.83984 228.45703 121.83984 C 261.96398 121.83984 287.31055 132.2565 304.49805 153.08984 C 321.68555 173.74956 330.2793 204.21832 330.2793 244.49609 L 330.2793 381.12891 A 208.57142 208.57142 0 0 0 418.28516 211.25 A 208.57142 208.57142 0 0 0 209.71484 2.6796875 z M 86.007812 43.621094 A 208.57142 208.57142 0 0 0 1.1425781 211.25 A 208.57142 208.57142 0 0 0 86.007812 378.87891 L 86.007812 43.621094 z M 217.7793 163.50586 C 191.91125 163.50586 171.51259 171.75304 156.58203 188.24609 C 141.65148 204.73915 134.18555 227.22114 134.18555 255.69336 L 134.18555 405.43555 A 208.57142 208.57142 0 0 0 209.71484 419.82227 A 208.57142 208.57142 0 0 0 282.36328 406.61914 L 282.36328 246.05859 C 282.36328 218.45443 276.98069 197.79339 266.2168 184.07812 C 255.45291 170.36285 239.30708 163.50586 217.7793 163.50586 z "
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#515151;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         d="M 209.71484,2.6796875 A 208.57142,208.57142 0 0 0 134.18555,16.837891 V 174.18359 c 11.45833,-17.53472 24.91384,-30.64367 40.36523,-39.32421 15.625,-8.68056 33.59375,-13.01954 53.90625,-13.01954 33.50695,0 58.85352,10.41666 76.04102,31.25 17.1875,20.65972 25.78125,51.12848 25.78125,91.40625 V 381.12891 A 208.57142,208.57142 0 0 0 418.28516,211.25 208.57142,208.57142 0 0 0 209.71484,2.6796875 Z M 86.007812,43.621094 A 208.57142,208.57142 0 0 0 1.1425781,211.25 208.57142,208.57142 0 0 0 86.007812,378.87891 Z M 217.7793,163.50586 c -25.86805,0 -46.26671,8.24718 -61.19727,24.74023 -14.93055,16.49306 -22.39648,38.97505 -22.39648,67.44727 v 149.74219 a 208.57142,208.57142 0 0 0 75.52929,14.38672 208.57142,208.57142 0 0 0 72.64844,-13.20313 V 246.05859 c 0,-27.60416 -5.38259,-48.2652 -16.14648,-61.98047 -10.76389,-13.71527 -26.90972,-20.57226 -48.4375,-20.57226 z"
          transform="matrix(0.26458333,0,0,0.26458333,1.5875,1.091742)"
-         id="circle2394" />
+         id="circle2394"
+         inkscape:connector-curvature="0" />
       <g
          id="g2398"
          style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00d7ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332"
@@ -96,7 +101,8 @@
      inkscape:label="Original"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none">
+     style="display:none"
+     transform="translate(-0.30230698,-0.70900047)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot817"
@@ -120,7 +126,7 @@
            height="928.57141"
            x="5"
            y="-347.48032" /></flowRegion><flowPara
-         id="flowPara831"></flowPara></flowRoot>    <g
+         id="flowPara831" /></flowRoot>    <g
        id="g854"
        transform="translate(0,-0.03340869)">
       <circle
