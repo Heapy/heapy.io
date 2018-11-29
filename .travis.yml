@@ -1,0 +1,31 @@
+language: java
+
+jdk:
+  - openjdk11
+
+addons:
+  ssh_known_hosts: heapy.io
+
+before_install:
+  - yarn install
+  - nvm install 8
+  - export HUGO_VERSION=0.52
+  - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb"
+  - sudo dpkg -i "hugo_${HUGO_VERSION}_Linux-64bit.deb"
+
+script:
+  - cd site && hugo --buildFuture
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: script
+  script: bash deploy.sh
+  skip_cleanup: true
+  on:
+    branch: unknown
+
+cache:
+  yarn: true

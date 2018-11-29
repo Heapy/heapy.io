@@ -1,0 +1,14 @@
+.page {
+  &_github_link {
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    @media screen and (max-width: 768px) {
+      width: 110px;
+      height: 110px;
+    }
+  }
+}

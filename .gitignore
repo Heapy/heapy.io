@@ -1,2 +1,6 @@
 # Intellij Idea
 /.idea/
+
+# Node
+/node_modules/
+/dist/
