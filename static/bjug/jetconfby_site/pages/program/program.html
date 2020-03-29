@@ -1,0 +1,45 @@
+<div class="text-center" ng-controller="programController">
+    <div class="index-page-title">
+        PROGRAM
+    </div>
+
+    <div class="program-schedule">
+        <div class="row" ng-init="initProgram()">
+            <div class="col-md-1 program-day-meaning-column program-day-meaning">
+                {{day.meaning}}
+            </div>
+            <div class="col-md-12 program-day-button-column">
+                <a class="program-day-button" href="#/program?day={{day.next.value}}">
+                    {{day.next.goText}}
+                </a>
+            </div>
+        </div>
+
+
+        <div class="row" ng-repeat="lineup in program.conference[day.value]" ng-switch="lineup.type">
+            <div ng-switch-when="break">
+                <div class="col-md-1 program-time-break">
+                     {{lineup.time}}
+                </div>
+                <div class="col-md-12 program-break-column">
+                    <div class="program-break-name"> {{lineup.topic}} </div>
+                </div>
+            </div>
+
+            <div ng-switch-when="track">
+                <div class="col-md-1 program-time-track">
+                    {{lineup.time}}
+                </div>
+
+                <div class="col-md-3 program-track-column" ng-repeat="session in lineup.sessions">
+                    <div>
+                        <a ng-repeat="speaker in session.speakers" href="#/{{speaker.action}}" class="program-speaker-name"> {{speaker.name}} </a>
+                    </div>
+                    <div>
+                        <a href="#/{{session.action}}" class="program-topic-name"> {{session.topic}} [{{session.language}}] </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="text-center" ng-controller="speakerSpecialController">
+    <div class="row">
+        <div class="col-md-12 speaker-title">
+            {{specialSpeaker.name}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img ng-src="{{specialSpeaker.image}}" class="img-responsive img-circle center-block" alt="{{specialSpeaker.name}}">
+        </div>
+        <div class="col-md-9 speaker-info text-left text-justify" ng-bind-html="specialSpeaker.bio">
+        </div>
+    </div>
+
+    <div ng-repeat="talk in specialSpeaker.talks">
+        <div class="row">
+            <div class="col-md-12 speaker-talk">
+                {{talk.topic}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 speaker-talk-info text-justify" ng-bind-html="talk.abstract">
+            </div>
+        </div>
+    </div>
+
+    <a class="speaker-back-button" href="#/speakers" rel="nofollow noopener">
+        TO ALL SPEAKERS
+    </a>
+</div>

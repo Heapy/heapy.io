@@ -1,0 +1,286 @@
+{
+  "conference": {
+    "1": [
+      {
+        "type": "break",
+        "time": "09:45 - 10:15",
+        "topic": "Registration"
+      },
+      {
+        "type": "break",
+        "time": "10:15 - 10:30",
+        "topic": "Opening Day 1"
+      },
+      {
+        "type": "track",
+        "time": "10:30 - 11:30",
+        "sessions": [
+          {
+            "topic": "Java 8 Support at the JVM Level",
+            "action": "nikita_lipsky",
+            "language": "Rus",
+            "speakers": [
+              {
+                "name": "Nikita Lipsky",
+                "action": "nikita_lipsky"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "11:30 - 12:00",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "12:00 - 13:00",
+        "sessions": [
+          {
+            "topic": "HotSpot Intrinsics",
+            "action": "volker_simonis",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Volker Simonis",
+                "action": "volker_simonis"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "13:00 - 13:30",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "13:30 - 14:30",
+        "sessions": [
+          {
+            "topic": "Immutable Infrastructure: Rise of the Machine Images",
+            "action": "axel_fontaine",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Axel Fontaine",
+                "action": "axel_fontaine"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "14:30 - 15:30",
+        "topic": "Lunch"
+      },
+      {
+        "type": "track",
+        "time": "15:30 - 16:30",
+        "sessions": [
+          {
+            "topic": "Building WebSockets Gaming Applications using the Atmosphere Framework",
+            "action": "jeanfrancois_arcand",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Jean-Francois Arcand",
+                "action": "jeanfrancois_arcand"
+              },
+              {
+                "name": "Jeremie Papillon",
+                "action": "jeremie_papillon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "16:30 - 17:00",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "17:00 - 18:00",
+        "sessions": [
+          {
+            "topic": "JDBC based frameworks racing",
+            "action": "vladislav_zablotsky",
+            "language": "Rus",
+            "speakers": [
+              {
+                "name": "Vladislav Zablotsky",
+                "action": "vladislav_zablotsky"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "18:00 - 18:30",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "18:30 - 19:30",
+        "sessions": [
+          {
+            "topic": "Weird Stream API",
+            "action": "tagir_valeev",
+            "language": "Rus",
+            "speakers": [
+              {
+                "name": "Tagir Valeev",
+                "action": "tagir_valeev"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "type": "break",
+        "time": "09:45 - 10:15",
+        "topic": "Registration"
+      },
+      {
+        "type": "break",
+        "time": "10:15 - 10:30",
+        "topic": "Opening Day 2"
+      },
+      {
+        "type": "track",
+        "time": "10:30 - 11:30",
+        "sessions": [
+          {
+            "topic": "RESTful Data Services with LinkRest : Building / Securing / Optimizing",
+            "action": "andrus_adamchik",
+            "language": "Rus",
+            "speakers": [
+              {
+                "name": "Andrus Adamchik",
+                "action": "andrus_adamchik"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "11:30 - 12:00",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "12:00 - 13:00",
+        "sessions": [
+          {
+            "topic": "RxJava in legacy projects",
+            "action": "tomasz_nurkiewicz",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Tomasz Nurkiewicz",
+                "action": "tomasz_nurkiewicz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "13:00 - 13:30",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "13:30 - 14:30",
+        "sessions": [
+          {
+            "topic": "Full-Text Search Explained",
+            "action": "philipp_krenn",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Philipp Krenn",
+                "action": "philipp_krenn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "14:30 - 15:30",
+        "topic": "Lunch"
+      },
+      {
+        "type": "track",
+        "time": "15:30 - 16:30",
+        "sessions": [
+          {
+            "topic": "How shit works: the CPU",
+            "action": "tomer_gabel",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Tomer Gabel",
+                "action": "tomer_gabel"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "16:30 - 17:00",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "17:00 - 18:00",
+        "sessions": [
+          {
+            "topic": "DROP DATABASE - galactic story",
+            "action": "jaroslaw_ratajski",
+            "language": "Eng",
+            "speakers": [
+              {
+                "name": "Jaroslaw Ratajski",
+                "action": "jaroslaw_ratajski"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "break",
+        "time": "18:00 - 18:30",
+        "topic": "Coffee Break"
+      },
+      {
+        "type": "track",
+        "time": "18:30 - 19:30",
+        "sessions": [
+          {
+            "topic": "Field Notes of a Command Line Ninja",
+            "action": "rustam_mehmandarov",
+            "language": "Rus",
+            "speakers": [
+              {
+                "name": "Rustam Mehmandarov",
+                "action": "rustam_mehmandarov"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

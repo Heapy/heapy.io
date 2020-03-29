@@ -1,0 +1,439 @@
+.program-day-meaning-column {
+    width: 20%;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.program-day-meaning {
+    font-size: 30px;
+    color: #405C78;
+    font-family: 'Akrobat Black';
+}
+
+.program-day-button-column {
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.program-day-button {
+    width: 25%;
+    margin-left: 75%;
+    height: 45px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Akrobat Black';
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FF6666, #FF6666 48%, #FF6666 52%, #FF6666);
+}
+
+.program-day-button:active {
+    color: #fff;
+    top: .1em;
+    left: .1em;
+}
+
+.program-day-button:hover,
+.program-day-button:focus {
+    color: #fff;
+}
+
+.program-schedule {
+    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.program-track-empty {
+    width: 12%;
+    height: 90px;
+}
+
+.program-track {
+    width: 22%;
+    height: 90px;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+}
+
+.program-track-name {
+    color: #405C78;
+    font-size: 23px;
+    padding-top: 15px;
+}
+
+.program-keynote-track {
+    width: 88%;
+    height: 100px;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-keynote-speaker-name {
+    color: #405C78;
+    font-size: 18px;
+    margin-left: 37%;
+    width: 250px;
+    cursor: pointer;
+}
+
+.program-keynote-speaker-name:hover {
+    background-color: #405C78;
+    color: white;
+}
+
+.program-keynote-topic-name {
+    color: #F74856;
+    font-size: 17px;
+    margin-left: 26%;
+    width: 450px;
+    cursor: pointer;
+}
+
+.program-keynote-topic-name:hover {
+    background-color: #F74856;
+    color: white;
+}
+
+.program-keynote-time{
+    width: 12%;
+    height: 100px;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-time-break {
+    width: 20%;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    background-color: #7695c4;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-break-column {
+    width: 80%;
+    height: 45px;
+    background-color: #7695c4;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-break-name {
+    color: white;
+    font-size: 25px;
+}
+
+.program-time-track {
+    width: 20%;
+    height: 110px;
+    color: #405C78;
+    font-size: 25px;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-track-column {
+    width: 80%;
+    height: 110px;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.program-speaker-name {
+    color: #405C78;
+    font-size: 23px;
+    cursor: pointer;
+  	padding: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.program-speaker-name:hover {
+    background-color: #405C78;
+    color: white;
+}
+
+.program-topic-name {
+    color: #405C78;
+    font-size: 25px;
+    font-family: 'Akrobat Black';
+    cursor: pointer;
+ 	padding: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.program-topic-name:hover {
+    background-color: #405C78;
+    color: white;
+}
+
+.training-row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.training-speaker-name {
+    color: #405C78;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.training-speaker-name:hover {
+    background-color: #405C78;
+    color: white;
+}
+
+.training-topic-name {
+    color: #F74856;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.training-topic-name:hover {
+    background-color: #F74856;
+    color: white;
+}
+
+.training-track-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    background-color: white;
+    height: 80px;
+    width: 12%;
+}
+
+.training-time {
+    color: #596979;
+    font-size: 12px;
+}
+
+.training-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    height: 80px;
+    width: 44%;
+}
+
+.training-break-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    height: 35px;
+    width: 12%;
+}
+
+.training-break {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #596979;
+    outline-offset: -1px;
+    height: 35px;
+    width: 88%;
+}
+
+.training-break-name {
+    color: #596979;
+    font-size: 19px;
+}
+
+.trainings-registration {
+    color: black;
+    font-size: 20px;
+}
+
+@media(max-width: 992px) {
+    .program-day-meaning-column {
+        width: 100%;
+    }
+
+    .program-day-meaning{
+        font-size: 35px;
+    }
+
+    .program-day-button-column {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .program-day-button {
+        margin-left: 33.3%;
+        width: 33.3%;
+        }
+
+    .program-track-empty {
+        display: none;
+    }
+
+    .program-track {
+        display: none;
+    }
+
+    .program-track-name {
+        display: none;
+    }
+
+    .program-time {
+        font-size: 150%;
+    }
+
+    .program-time-break {
+        width: 100%;
+    }
+
+    .program-time-track {
+        width: 100%;
+    }
+
+    .program-keynote-time {
+        width: 100%;
+    }
+
+    .program-break-column {
+        width: 100%;
+    }
+
+    .program-track-column {
+        width: 100%;
+    }
+
+    .program-keynote-track {
+        width: 100%;
+    }
+
+    .program-speaker-name {
+        font-size: 18px;
+    }
+
+    .program-topic-name {
+        font-size: 20px;
+    }
+
+    .program-keynote-speaker-name {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .program-keynote-topic-name {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .training-break-time {
+        width: 100%;
+    }
+
+    .training-time {
+        font-size: 160%;
+    }
+
+    .training-break {
+        width: 100%;
+    }
+
+    .training-track-time {
+        width: 100%;
+    }
+
+    .training-track{
+        width: 100%;
+    }
+
+    .training-speaker-name {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .training-topic-name {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .program-day-meaning {
+        font-size: 20px;
+    }
+
+    .program-day-button {
+        font-size: 20px;
+    }
+
+    .program-time-track {
+       height: 120px;
+    }
+
+    .program-track-column {
+       height: 120px;
+    }
+
+    .program-time-break {
+       height: 70px;
+    }
+
+    .program-break-column {
+       height: 70px;
+    }
+
+    .program-keynote-speaker-name {
+        margin-left: 35%;
+    }
+
+    .program-keynote-topic-name {
+        margin-left: 22%;
+    }
+
+    .program-track {
+        height: 120px;
+    }
+}

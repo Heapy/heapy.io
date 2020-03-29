@@ -1,0 +1,204 @@
+.tickets-summaries {
+    color: #405C78;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tickets-summary {
+    display: table-cell;
+}
+
+.tickets-summary-clarification {
+    margin-bottom: 20px;
+}
+
+.tickets-ranges {
+    margin-bottom: 50px;
+}
+
+.tickets-range {
+    display: table-cell;
+    width: 160px;
+    outline: 2px solid #5C6979;
+    outline-offset: -1px;
+}
+
+.tickets-date {
+    font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tickets-price {
+    font-size: 32px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tickets-past-date {
+    color: white;
+	background-color: #5C6979;
+}
+
+.tickets-past-price {
+	color: #596979;
+	background-color: #B7C0C9;
+}
+
+.tickets-active-date {
+    color: white;
+	background-color: #346E96;
+}
+
+.tickets-active-price {
+    color: white;
+	background-color: #ACCAEC;
+}
+
+.tickets-future-date {
+	color: white;
+	background-color: #405C78;
+}
+
+.tickets-future-price {
+	color: #596979;
+	background-color: white;
+}
+
+.tickets-participation-agreement {
+	color: #405C78;
+	font-size: 23px;
+    cursor: pointer;
+	margin-bottom: 50px;
+}
+
+.tickets-participation-agreement:hover{
+  	color: #ACCAEC;
+}
+
+.tickets-button {
+    position: relative;
+	color: white;
+	height: 80px;
+	cursor: pointer;
+	font-family: 'Akrobat Black';
+	font-size: 25px;
+    border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tickets-button:active {
+    color: #fff;
+    top: .1em;
+    left: .1em;
+}
+
+.tickets-button:hover,
+.tickets-button:focus {
+    color: #fff;
+}
+
+.tickets-individual {
+    float: left;
+    text-shadow: 0 -1px 1px #777;
+    outline: none;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FF6666, #FF6666 48%, #FF6666 52%, #FF6666);
+}
+
+.tickets-corporate {
+    float: right;
+    text-shadow: 0 -1px 1px #777;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #405C78;
+    background: linear-gradient(#405C78, #405C78 48%, #405C78 52%, #405C78);
+}
+
+@media(max-width: 991px) {
+	.tickets-button {
+		margin-bottom: 20px;
+		margin-left: 20%;
+		width: 60%;
+	}
+
+    .tickets-range {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .tickets-summary {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    img.tickets-summary {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .tickets-button {
+        width: 70%;
+    }
+
+    .tickets-individual {
+        margin-left: 15%;
+    }
+
+    .tickets-corporate {
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 992px) {
+    .tickets-ranges {
+        margin-left: 0px;
+    }
+
+    .tickets-summaries {
+        margin-left: 0px;
+    }
+
+    .tickets-summary {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    img.tickets-summary {
+        width: 130px;
+    }
+
+    .tickets-button {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tickets-summaries {
+        margin-left: 95px;
+    }
+
+    img.tickets-summary {
+        width: 180px;
+    }
+
+    .tickets-ranges {
+        margin-left: 105px;
+    }
+
+    .tickets-individual {
+        margin-left: 105px;
+    }
+
+    .tickets-corporate {
+        margin-right: 105px;
+    }
+
+    .tickets-button {
+        width: 35%;
+    }
+}

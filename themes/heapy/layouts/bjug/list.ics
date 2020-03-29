@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//heapy-io//bjug calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+{{ range .Pages -}}
+{{ if .Params.event -}}
+BEGIN:VEVENT
+ORGANIZER;CN="{{ .Params.event.organizer.name }}":mailto:{{ .Params.event.organizer.email }}
+SUMMARY:{{ .Title }}
+UID:{{ .File.BaseFileName }}@heapy.io/bjug
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:{{ dateFormat "20060102T150405Z" .Params.date }}
+DTSTART;TZID=Europe/Minsk:{{ dateFormat "20060102T150405" .Params.date }}
+DTEND;TZID=Europe/Minsk:{{ with .Params.term }}{{ dateFormat "20060102T150405" . }}{{ end }}
+LOCATION:{{ .Params.event.location }}
+URL:{{ .Permalink }}
+END:VEVENT
+{{ end -}}
+{{ end -}}
+END:VCALENDAR

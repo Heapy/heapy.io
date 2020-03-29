@@ -1,0 +1,412 @@
+{
+  "sessions": [
+    {
+      "topic": "No container: a Modern Java Stack with Bootique",
+      "action": "history/2016/spring/andrus_adamchik",
+      "speakers": [
+        {
+          "name": "Andrus Adamchik",
+          "action": "history/2016/spring/andrus_adamchik"
+        }
+      ],
+      "video": "https://youtu.be/Zhe0JPQojQw",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKbm1NOVBwVHRLMjg"
+    },
+    {
+      "topic": "An Immutable Object-Oriented Web Framework",
+      "action": "history/2016/spring/yegor_bugayenko",
+      "speakers": [
+        {
+          "name": "Yegor Bugayenko",
+          "action": "history/2016/spring/yegor_bugayenko"
+        }
+      ],
+      "video": "https://youtu.be/-Y4XS7ZtQ2g",
+      "code": "https://github.com/yegor256/jetconf-2016"
+    },
+    {
+      "topic": "Groovy Puzzlers S03 - The Unstoppable Puzzlers Hit Again!",
+      "action": "history/2016/spring/baruch_sadogursky",
+      "speakers": [
+        {
+          "name": "Baruch Sadogursky",
+          "action": "history/2016/spring/baruch_sadogursky"
+        },
+        {
+          "name": "Kirill Tolkachev",
+          "action": "history/2016/spring/kirill_tolkachev"
+        }
+      ],
+      "video": "https://youtu.be/5RCnt53R3s8",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKUktWSUJqLTU1eXc"
+    },
+    {
+      "topic": "Standardize Caching in Java: JCache",
+      "action": "history/2016/spring/alparslan_avci",
+      "speakers": [
+        {
+          "name": "Alparslan Avci",
+          "action": "history/2016/spring/alparslan_avci"
+        }
+      ],
+      "video": "https://youtu.be/ZRJ14Hk5InA",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKZXdlb1hwSjI3bVE"
+    },
+    {
+      "topic": "Hadoop Jungle : the world of wild algorithms and poisonous JVMs",
+      "action": "history/2016/spring/alexey_zinoviev",
+      "speakers": [
+        {
+          "name": "Alexey Zinoviev",
+          "action": "history/2016/spring/alexey_zinoviev"
+        }
+      ],
+      "video": "https://youtu.be/5Qap5lRETM0",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKMm5KdGY0bjh5ZjA"
+    },
+    {
+      "topic": "Social networks and recommendation engines, here comes Neo4j",
+      "action": "history/2016/spring/jaroslaw_palka",
+      "speakers": [
+        {
+          "name": "Jaroslaw Palka",
+          "action": "history/2016/spring/jaroslaw_palka"
+        }
+      ],
+      "video": "https://youtu.be/Gch6Cnv0cnc"
+    },
+    {
+      "topic": "MyBatis, Thanks God not JPA",
+      "action": "history/2016/spring/vladislav_zablotsky",
+      "speakers": [
+        {
+          "name": "Vladislav Zablotsky",
+          "action": "history/2016/spring/vladislav_zablotsky"
+        }
+      ],
+      "video": "https://youtu.be/30B7kSlVvys",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKOWJ0SjljVVo3bDQ",
+      "code": "https://github.com/rumatoest/lab-mybatis"
+    },
+    {
+      "topic": "Apache Cassandra 3 New Cool Features",
+      "action": "history/2016/spring/duyhai_doan",
+      "speakers": [
+        {
+          "name": "DuyHai Doan",
+          "action": "history/2016/spring/duyhai_doan"
+        }
+      ],
+      "video": "https://youtu.be/Y_xRXCT3W60",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKMlZyM3A2SnpERVU"
+    },
+    {
+      "topic": "Apache Cayenne: Java ORM Alternative",
+      "action": "history/2016/spring/andrus_adamchik",
+      "speakers": [
+        {
+          "name": "Andrus Adamchik",
+          "action": "history/2016/spring/andrus_adamchik"
+        }
+      ],
+      "video": "https://youtu.be/L6rQe0fLO_E",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKMTFZWFE4S2k4ZkU"
+    },
+    {
+      "topic": "Improve your tests quality with Mutation Testing",
+      "action": "history/2016/spring/nicolas_frankel",
+      "speakers": [
+        {
+          "name": "Nicolas Frankel",
+          "action": "history/2016/spring/nicolas_frankel"
+        }
+      ],
+      "video": "https://youtu.be/ChdLToGtm2s",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKbUZGazFNUEtMN0k"
+    },
+    {
+      "topic": "Testing RESTful services: The What, The How and The Automated",
+      "action": "history/2016/spring/alexey_buzdin",
+      "speakers": [
+        {
+          "name": "Alexey Buzdin",
+          "action": "history/2016/spring/alexey_buzdin"
+        }
+      ],
+      "video": "https://youtu.be/clfkRjBGmow",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKN0UxcGhOa2NkVTQ"
+    },
+    {
+      "topic": "Advanced testing tools",
+      "action": "history/2016/spring/tomasz_borek",
+      "speakers": [
+        {
+          "name": "Tomasz Borek",
+          "action": "history/2016/spring/tomasz_borek"
+        }
+      ],
+      "video": "https://youtu.be/CRznHrZqlzc",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKdkZ1UzhjN043UjA"
+    },
+    {
+      "topic": "How to get rid of Obsession?",
+      "action": "history/2016/spring/sebastian_malaca",
+      "speakers": [
+        {
+          "name": "Sebastian Malaca",
+          "action": "history/2016/spring/sebastian_malaca"
+        }
+      ],
+      "video": "https://youtu.be/WUKY3hOr57g",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKanVVMk5zaWwxNlE"
+    },
+    {
+      "topic": "Kotlin: Making JVM Development Fun Again",
+      "action": "history/2016/spring/dmitry_jemerov",
+      "speakers": [
+        {
+          "name": "Dmitry Jemerov",
+          "action": "history/2016/spring/dmitry_jemerov"
+        }
+      ],
+      "video": "https://youtu.be/R0zv0vi7_wQ",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKRzBVczIwSk1wUGc"
+    },
+    {
+      "topic": "Kotlin in real projects: pragmatic opinion on pragmatic language",
+      "action": "history/2016/spring/anton_keks",
+      "speakers": [
+        {
+          "name": "Anton Keks",
+          "action": "history/2016/spring/anton_keks"
+        }
+      ],
+      "video": "https://youtu.be/CABN2r4GPpQ",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKRTRtWDV0X1Ruek0"
+    },
+    {
+      "topic": "The Darkside of Kotlin",
+      "action": "history/2016/spring/ruslan_ibragimov",
+      "speakers": [
+        {
+          "name": "Ruslan Ibragimov",
+          "action": "history/2016/spring/ruslan_ibragimov"
+        }
+      ],
+      "video": "https://youtu.be/fZXQjy8sdok"
+    },
+    {
+      "topic": "Caught in the Act: Kotlin Bytecode Generation and Runtime Performance",
+      "action": "history/2016/spring/dmitry_jemerov",
+      "speakers": [
+        {
+          "name": "Dmitry Jemerov",
+          "action": "history/2016/spring/dmitry_jemerov"
+        }
+      ],
+      "video": "https://youtu.be/eQ4YHpAXdp4",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKVEpfZm1ZcFljU3c"
+    },
+    {
+      "topic": "A Language is More Than a Language",
+      "action": "history/2015/bruce_eckel",
+      "speakers": [
+        {
+          "name": "Bruce Eckel",
+          "action": "history/2015/bruce_eckel"
+        }
+      ],
+      "video": "https://youtu.be/d25z-wO1zzs",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKMjU2NzQtNTdYRkU"
+    },
+    {
+      "topic": "Java in production for Data Mining Research projects",
+      "action": "history/2015/alexey_zinoviev",
+      "speakers": [
+        {
+          "name": "Alexey Zinoviev",
+          "action": "history/2015/alexey_zinoviev"
+        }
+      ],
+      "video": "https://youtu.be/l_9LdIJovFo",
+      "presentation" : "https://drive.google.com/open?id=0B0eiLAQm-txKOHg3S3Z5QmdZeWs"
+    },
+    {
+      "topic": "Spring The Ripper",
+      "action": "history/2015/evgeny_borisov",
+      "speakers": [
+        {
+          "name": "Evgeny Borisov",
+          "action": "history/2015/evgeny_borisov"
+        }
+      ],
+      "video": "https://youtu.be/peb8zHaxq2A",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKd1ZwU0VCUmJKMTA"
+    },
+    {
+      "topic": "Spring Puzzlers. The Greatest Hits",
+      "action": "history/2015/evgeny_borisov",
+      "speakers": [
+        {
+          "name": "Evgeny Borisov",
+          "action": "history/2015/evgeny_borisov"
+        },
+        {
+          "name": "Baruch Sadogursky",
+          "action": "history/2015/baruch_sadogursky"
+        }
+      ],
+      "video": "https://youtu.be/BcW8Bih27JQ",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKZlcyeXdXQTZvNUk"
+    },
+    {
+      "topic": "TDD for database related code, how is it possible?",
+      "action": "history/2015/mikalai_alimenkou",
+      "speakers": [
+        {
+          "name": "Mikalai Alimenkou",
+          "action": "history/2015/mikalai_alimenkou"
+        }
+      ],
+      "video": "https://youtu.be/fU1D-2ZIs20",
+      "presentation": "http://www.slideshare.net/alimenkou/tdd-for-db-integration",
+      "code": "https://github.com/xpinjection/tdd-sample"
+    },
+    {
+      "topic": "Distributed Rate Limiter. Generic Software Engineering Practices",
+      "action": "history/2015/uladzimir_liashkevich",
+      "speakers": [
+        {
+          "name": " Uladzimir Liashkevich",
+          "action": "history/2015/uladzimir_liashkevich"
+        }
+      ],
+      "video": "https://youtu.be/r19H-Gast7g",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKMzhMRHhrRW96Z0k"
+    },
+    {
+      "topic": "Java byte code in practice",
+      "action": "history/2015/rafael_winterhalter",
+      "speakers": [
+        {
+          "name": "Rafael Winterhalter",
+          "action": "history/2015/rafael_winterhalter"
+        }
+      ],
+      "video": "https://youtu.be/DoULLSpEnU4",
+      "presentation" : "https://drive.google.com/open?id=0B0eiLAQm-txKTkc2dmlZS3J6cmc"
+    },
+    {
+      "topic": "How \"final\" is final?",
+      "action": "history/2015/volker_simonis",
+      "speakers": [
+        {
+          "name": "Volker Simonis",
+          "action": "history/2015/volker_simonis"
+        }
+      ],
+      "video": "https://youtu.be/7ZMgs6GKZU8",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKVnEwWEJPTjNyWkU"
+    },
+    {
+      "topic": "Atomics, CAS, and Nonblocking Algorithms",
+      "action": "history/2015/alexey_fyodorov",
+      "speakers": [
+        {
+          "name": "Alexey Fyodorov",
+          "action": "history/2015/alexey_fyodorov"
+        }
+      ],
+      "video": "https://youtu.be/4mxYC2e6ALs",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKUy0wTWFFVlpkcFU"
+    },
+    {
+      "topic": "An introduction to JVM performance",
+      "action": "history/2015/rafael_winterhalter",
+      "speakers": [
+        {
+          "name": "Rafael Winterhalter",
+          "action": "history/2015/rafael_winterhalter"
+        }
+      ],
+      "video": "https://youtu.be/wL3KrSGuZW0",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKdGFLMi00cDZrc3c"
+    },
+    {
+      "topic": "Do we need Unsafe in Java?",
+      "action": "history/2015/andrei_pangin",
+      "speakers": [
+        {
+          "name": "Andrei Pangin",
+          "action": "history/2015/andrei_pangin"
+        }
+      ],
+      "video": "https://youtu.be/65XX8Mrnf_c",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKblJKMXkwRWpxZlU"
+    },
+    {
+      "topic": "The Epic Groovy Puzzlers. Directors' Cut",
+      "action": "history/2015/baruch_sadogursky",
+      "speakers": [
+        {
+          "name": "Evgeny Borisov",
+          "action": "history/2015/evgeny_borisov"
+        },
+        {
+          "name": "Baruch Sadogursky",
+          "action": "history/2015/baruch_sadogursky"
+        }
+      ],
+      "video": "https://youtu.be/LVFovqb1k0s",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKeVdnbC1FWmdYY0E"
+    },
+    {
+      "topic": "Scala perfomance for those who doubt",
+      "action": "history/2015/roman_grebennikov",
+      "speakers": [
+        {
+          "name": "Roman Grebennikov",
+          "action": "history/2015/roman_grebennikov"
+        }
+      ],
+      "video": "https://youtu.be/oHtaD5oXPtc",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKY3RXNTJmdE1uQ3c"
+    },
+    {
+      "topic": "Reactive? Functional? Or: Akka- & Scalaz- streams side-by-side?",
+      "action": "history/2015/adam_warski",
+      "speakers": [
+        {
+          "name": "Adam Warski",
+          "action": "history/2015/adam_warski"
+        }
+      ],
+      "video": "https://youtu.be/pXj5Q8KsXX0",
+      "code": "https://github.com/adamw/streams-pres"
+    },
+    {
+      "topic": "Domain-specific Hotspot Optimization with Scalan",
+      "action": "history/2015/alexander_slesarenko",
+      "speakers": [
+        {
+          "name": "Alexander Slesarenko",
+          "action": "history/2015/alexander_slesarenko"
+        }
+      ],
+      "video": "https://youtu.be/aTyG1zWypc0",
+      "presentation": "https://drive.google.com/open?id=0B0eiLAQm-txKLUM4YjdKRlFJTUU"
+    },
+    {
+      "topic": "Groovy AST Transformations: Getting practical in an hour",
+      "action": "history/2015/baruch_sadogursky",
+      "speakers": [
+        {
+          "name": "Baruch Sadogursky",
+          "action": "history/2015/baruch_sadogursky"
+        }
+      ],
+      "video": "https://youtu.be/1va4bdsfJ00",
+      "code": "https://github.com/jbaruch/ast-talk/tree/jet-2105"
+    }
+  ]
+}

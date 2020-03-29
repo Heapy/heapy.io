@@ -1,0 +1,27 @@
+<div class="text-center" ng-controller="historySpeakerController">
+    <div class="row">
+        <div class="col-md-12 speaker-title">
+            {{speaker.name}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img ng-src="{{speaker.image}}" class="img-responsive img-circle center-block" alt="{{speaker.name}}">
+        </div>
+        <div class="col-md-8 speaker-info text-left text-justify" ng-bind-html="speaker.bio">
+        </div>
+    </div>
+
+    <div ng-repeat="talk in speaker.talks">
+        <div class="row">
+            <div class="col-md-12 speaker-talk">
+                {{talk.topic}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 speaker-talk-info text-justify" ng-bind-html="talk.abstract">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="AOALKaX41i4mNbAqUTg-oxmZ-LXDrnjQEyOqFLonuxM"/>
+
+    <title>JET Conference</title>
+
+    <link rel="icon" href="pages/index/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="pages/index/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-sanitize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="pages/index/index.css">
+    <link rel="stylesheet" type="text/css" href="pages/main/main.css">
+    <link rel="stylesheet" type="text/css" href="pages/program/program.css">
+    <link rel="stylesheet" type="text/css" href="pages/speakers/speakers.css">
+    <link rel="stylesheet" type="text/css" href="pages/history/history.css">
+    <link rel="stylesheet" type="text/css" href="pages/tickets/tickets.css">
+
+    <script src="pages/index/index.routing.js"></script>
+    <script src="pages/program/program.controller.js"></script>
+    <script src="pages/speakers/speakers.controller.js"></script>
+    <script src="pages/speakers/speakers.routing.js"></script>
+    <script src="pages/history/history.controller.js"></script>
+    <script src="pages/history/history.routing.js"></script>
+    <script src="pages/index/index.config.js"></script>
+</head>
+<body ng-app="jetApp">
+    <div class="container">
+        <div class="row">
+            <div id="index-logo" class="col-md-4 text-center">
+                <a href="#/"> JET </a>
+            </div>
+            <div id="index-menu-row" class="col-md-8 text-center">
+                <a href="#/history" class="index-menu"> HISTORY </a>
+<!--                <a href="#/tickets" class="index-menu"> TICKETS </a>
+                <a href="#/speakers" class="index-menu"> SPEAKERS </a>
+                <a href="#/program" class="index-menu"> PROGRAM </a>-->
+            </div>
+        </div>
+
+        <div id="content" class="row">
+            <div class="col-md-12" ng-view></div>
+        </div>
+
+        <div id="index-footer" class="row">
+            <div class="col-md-6 index-footer-copyright">
+                Jet Conference &copy; 2017
+            </div>
+            <div class="col-md-6">
+                <a href="https://vk.com/jetconf" target="_blank">
+                    <img src="pages/index/images/vk.png" class="index-social-icons" alt="VK">
+                </a>
+                <a href="https://facebook.com/jetconf" target="_blank">
+                    <img src="pages/index/images/facebook.png" class="index-social-icons" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/jetconf" target="_blank">
+                    <img src="pages/index/images/twitter.png" class="index-social-icons" alt="Twitter">
+                </a>
+                <a href="https://www.youtube.com/channel/UC-SvUjowAv-JHIiaIT9S0cg" target="_blank">
+                    <img src="pages/index/images/youtube.png" class="index-social-icons" alt="Youtube">
+                </a>
+                <a href="https://gitter.im/jetconf/chat" target="_blank">
+                    <img src="pages/index/images/gitter.png" class="index-social-icons" alt="Gitter">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-64666723-1', 'auto');
+			ga('send', 'pageview');
+	</script>
+</body>
+</html>

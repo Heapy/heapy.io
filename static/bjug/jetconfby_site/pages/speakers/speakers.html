@@ -1,0 +1,17 @@
+<div class="text-center" ng-controller="speakersController">
+    <div class="index-page-title">
+        SPEAKERS
+    </div>
+
+    <div class="row" ng-repeat="speakersRow in speakers.list">
+        <a class="col-md-4" ng-repeat="speaker in speakersRow" href="#/{{speaker.action}}">
+            <div class="speaker">
+                <div class="speaker-image" style="background-image: url('{{speaker.imageFun}}')">
+                    <img ng-src="{{speaker.image}}" class="img-responsive center-block" alt="{{speaker.name}}">
+                </div>
+                <div class="speaker-name"> {{speaker.name}} </div>
+                <div class="speaker-slogan"> {{speaker.title}} </div>
+            </div>
+        </a>
+    </div>
+</div>

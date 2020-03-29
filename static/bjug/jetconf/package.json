@@ -1,0 +1,16 @@
+{
+  "name": "heapy-tasks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Heapy/heapy.io.git",
+  "author": "Ruslan Ibragimov <ruslan@ibragimov.by>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^9.3.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "start": "ts-node .script.ts"
+  }
+}

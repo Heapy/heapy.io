@@ -1,0 +1,105 @@
+{
+  "list": [
+    [
+      {
+        "name": "Nikita Lipsky",
+        "action": "nikita_lipsky",
+        "image": "pages/speakers/images/nikita_lipsky.jpg",
+        "imageFun": "pages/speakers/images/nikita_lipsky_fun.jpg",
+        "title": "Product Lead of Excelsior JET"
+      },
+      {
+        "name": "Volker Simonis",
+        "action": "volker_simonis",
+        "image": "pages/speakers/images/volker_simonis.jpg",
+        "imageFun": "pages/speakers/images/volker_simonis_fun.jpg",
+        "title": "Member of JCP Executive Committee"
+      },
+      {
+        "name": "Axel Fontaine",
+        "action": "axel_fontaine",
+        "image": "pages/speakers/images/axel_fontaine.jpg",
+        "imageFun": "pages/speakers/images/axel_fontaine_fun.jpg",
+        "title": "Founder and CEO of Boxfuse "
+      }
+    ],
+    [
+      {
+        "name": "Jean-Francois Arcand",
+        "action": "jeanfrancois_arcand",
+        "image": "pages/speakers/images/jeanfrancois_arcand.jpg",
+        "imageFun": "pages/speakers/images/jeanfrancois_arcand_fun.jpg",
+        "title": "Co-Founder and CTO at Yulplay"
+      },
+      {
+        "name": "Jeremie Papillon",
+        "action": "jeremie_papillon",
+        "image": "pages/speakers/images/jeremie_papillon.jpg",
+        "imageFun": "pages/speakers/images/jeremie_papillon_fun.jpg",
+        "title": "Lead Mobile Developer at Yulplay"
+      },
+      {
+        "name": "Vladislav Zablotsky",
+        "action": "vladislav_zablotsky",
+        "image": "pages/speakers/images/vladislav_zablotsky.jpg",
+        "imageFun": "pages/speakers/images/vladislav_zablotsky_fun.jpg",
+        "title": "Developer at Cloudlinux"
+      }
+    ],
+    [
+      {
+        "name": "Tagir Valeev",
+        "action": "tagir_valeev",
+        "image": "pages/speakers/images/tagir_valeev.jpg",
+        "imageFun": "pages/speakers/images/tagir_valeev_fun.jpg",
+        "title": "Developer at JetBrains"
+      },
+      {
+        "name": "Andrus Adamchik",
+        "action": "andrus_adamchik",
+        "image": "pages/speakers/images/andrus_adamchik.jpg",
+        "imageFun": "pages/speakers/images/andrus_adamchik_fun.jpg",
+        "title": "CEO and Chief Consultant at ObjectStyle"
+      },
+      {
+        "name": "Tomasz Nurkiewicz",
+        "action": "tomasz_nurkiewicz",
+        "image": "pages/speakers/images/tomasz_nurkiewicz.jpg",
+        "imageFun": "pages/speakers/images/tomasz_nurkiewicz_fun.jpg",
+        "title": "Developer at 4Finance "
+      }
+    ],
+    [
+      {
+        "name": "Philipp Krenn",
+        "action": "philipp_krenn",
+        "image": "pages/speakers/images/philipp_krenn.jpg",
+        "imageFun": "pages/speakers/images/philipp_krenn_fun.jpg",
+        "title": "Developer Advocate at Elastic"
+      },
+      {
+        "name": "Tomer Gabel",
+        "action": "tomer_gabel",
+        "image": "pages/speakers/images/tomer_gabel.jpg",
+        "imageFun": "pages/speakers/images/tomer_gabel_fun.jpg",
+        "title": "System Architect at Wix"
+      },
+      {
+        "name": "Jaroslaw Ratajski",
+        "action": "jaroslaw_ratajski",
+        "image": "pages/speakers/images/jaroslaw_ratajski.jpg",
+        "imageFun": "pages/speakers/images/jaroslaw_ratajski_fun.jpg",
+        "title": "Software Architect at CSS Versicherung"
+      }
+    ],
+    [
+      {
+        "name": "Rustam Mehmandarov",
+        "action": "rustam_mehmandarov",
+        "image": "pages/speakers/images/rustam_mehmandarov.jpg",
+        "imageFun": "pages/speakers/images/rustam_mehmandarov_fun.jpg",
+        "title": "Norwegian JUG leader"
+      }
+    ]
+  ]
+}

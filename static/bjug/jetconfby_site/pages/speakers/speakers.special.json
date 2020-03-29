@@ -1,0 +1,145 @@
+{
+  "andrus_adamchik": {
+    "name": "Andrus Adamchik",
+    "image": "pages/speakers/images/andrus_adamchik.jpg",
+    "bio": "<strong>Andrus</strong> is a member of the Apache Software Foundation and a passionate open source developer. He started programming in Java back in 1998, founding a number of open-source projects since then. The first notable project was <a href=\"http://cayenne.apache.org\" target=\"_blank\">Apache Cayenne</a>, a developer-friendly ORM. More recently he created <a href=\"http://linkrest.io\" target=\"_blank\">LinkRest</a>, a framework for model-driven REST data services and <a href=\"http://bootique.io\" target=\"_blank\">Bootique</a>, a minimally-opinionated technology for building runnable Java applications. In his dayjob he is an IT entrepreneur, running a great software company called <a href=\"http://objectstyle.com/ObjectStyle\" target=\"_blank\">ObjectStyle</a>.",
+    "talks": [
+      {
+        "topic": "RESTful Data Services with LinkRest : Building / Securing / Optimizing",
+        "abstract": "<a href=\"http://linkrest.io\" target=\"_blank\">LinkRest</a> is a small HTTP-based protocol and a Java framework that rethinks how REST APIs should be built. It turns each API endpoint into a graph query engine, giving client full control over the shape and contents of the requested data sets. The talk will start with the easy parts – how to reuse an existing ORM model (Apache Cayenne) and write simple Java one-liners to get a REST service up and running. Then we will delve into more advanced topics: alternative backends, graph access security and parallel data processing."
+      }
+    ]
+  },
+  "jeanfrancois_arcand": {
+    "name": "Jean-Francois Arcand",
+    "image": "pages/speakers/images/jeanfrancois_arcand.jpg",
+    "bio": "<strong>Jeanfrancois</strong> is the co-founder and CTO at <a href=\"http://yulplay.com\" target=\"_blank\">Yulplay</a>, the creator of <a href=\"http://doodgame.com\" target=\"_blank\">Doodgame</a>, the ultimate real time app for sport fans! <strong>Jeanfrancois</strong> is the creator of <a href=\"https://github.com/jfarcand/atmosphere\" target=\"_blank\">Atmosphere</a>, a framework for building powerful websockets and asynchronous applications. The Atmosphere Framework is integrated by more than 50 Java frameworks and libraries, and heavily used all around the world. He is also the author of the <a href=\"https://github.com/jfarcand/Grizzly\" target=\"_blank\">Grizzly Framework</a>, the powerful NIO front end used by GlassFish/Payara and the creator of <a href=\"https://github.com/jfarcand/WCS\" target=\"_blank\">WCS</a>, an asynchronous HTTP/WebSocket client library. All his projects are open source and available <a href=\"https://github.com/jfarcand\" target=\"_blank\">here</a>",
+    "talks": [
+      {
+        "topic": "Building WebSockets Gaming Applications using the Atmosphere Framework",
+        "abstract": "This session will illustrate the Atmosphere Framework's concepts by building a reactive gaming application using WebSockets, Atmosphere, React Native and the Netty I/O Framework. First, we will explain how to implement an Atmosphere's WebSocketProcessor API as a foundation for a real time gaming application. Second, we will demonstrate how to use javax.inject for building injection of any kind of objects inside our WebSocketProcessor. Next we will use Doodgame, a real time gaming application developped by Yulplay.com, available on IOS and Android, to demonstrate how quickly a client can be build hooked to our new WebSocketProcessor. We will conclude with performance tips and tricks when building WebSocket applications using Atmosphere."
+      }
+    ]
+  },
+  "jeremie_papillon": {
+    "name": "Jeremie Papillon",
+    "image": "pages/speakers/images/jeremie_papillon.jpg",
+    "bio": "<strong>Jeremie</strong> is the Lead Mobile Developer at <a href=\"http://yulplay.com\" target=\"_blank\">Yulplay</a>, the creators of <a href=\"http://doodgame.com\" target=\"_blank\">Doodgame</a> (the ultimate app for sport fans). He's passionate about React and React Native, and has been working for the past year on building and optimizing a real-time mobile app using WebSockets and a Java back-end server. He keeps himself up-to-date with technology and always wants to learn new stuff. On a side note, he's Canadian (yes, he plays ice hockey) and he wants to discover new beers and the world!",
+    "talks": [
+      {
+        "topic": "Building WebSockets Gaming Applications using the Atmosphere Framework",
+        "abstract": "This session will illustrate the Atmosphere Framework's concepts by building a reactive gaming application using WebSockets, Atmosphere, React Native and the Netty I/O Framework. First, we will explain how to implement an Atmosphere's WebSocketProcessor API as a foundation for a real time gaming application. Second, we will demonstrate how to use javax.inject for building injection of any kind of objects inside our WebSocketProcessor. Next we will use Doodgame, a real time gaming application developped by Yulplay.com, available on IOS and Android, to demonstrate how quickly a client can be build hooked to our new WebSocketProcessor. We will conclude with performance tips and tricks when building WebSocket applications using Atmosphere."
+      }
+    ]
+  },
+  "tagir_valeev": {
+    "name": "Tagir Valeev",
+    "image": "pages/speakers/images/tagir_valeev.jpg",
+    "bio": "<strong>Tagir</strong> is the author of <a href=\"https://github.com/amaembo/streamex\" target=\"_blank\">StreamEx</a>, very useful Java 8 Stream extension library that adds additional parallelism features on top of standard streams. He’s a speaker at conferences, and has contributed a dozen of patches into OpenJDK Stream API (including bug fixes, performance optimizations and new features). He’s interested in static code analysis and works on a new Java bytecode <a href=\"https://github.com/amaembo/huntbugs\" target=\"_blank\">analyzer</a>.",
+    "talks": [
+      {
+        "topic": "Weird Stream API",
+        "abstract" : "Java 8 Stream API is already here for a couple of years and programmers use it widely. However under the hood of magical API you can discover the plain Java code with has its own bugs, weirdness and whims. We will take a look on some code snippets which may unexpectedly show poor performance or strange behavior. Also we will extend Stream API with new intermediate operation trying to achieve the best performance."
+      }
+    ]
+  },
+  "volker_simonis": {
+    "name": "Volker Simonis",
+    "image": "pages/speakers/images/volker_simonis.jpg",
+    "bio": "<strong>Volker</strong> works for SAP in the SAP JVM Technology group. <a href=\"http://openjdk.java.net\" target=\"_blank\">OpenJDK</a> contributor from the very beginning and helped SAP and the SAP JVM team engage in the OpenJDK project. Currently, he's the Project Lead of the OpenJDK PowerPC/AIX and s390x porting projects, a JDK8 committer and JDK9 reviewer. He also represents SAP in the JCP.",
+    "talks": [
+      {
+        "topic": "HotSpot Intrinsics",
+        "abstract": "By definition, intrinsics are functions which are handled specially by the compiler or the VM. The HotSpot virtual machine supports intrinsics for specific API functions in the interpreter as well as in the C1 and C2 JIT compilers. In general, intrinsics are a great possibility for optimization. But they also come at a certain cost. <br/> <br/> First of all, they are inherently platform and implementation dependent. If available, they can lead to consistency problems if they are implemented differently in the interpreter and the JIT compilers. Finally, they can change the program control (e.g. safepoint behavior) and observability (e.g. profiling, instrumentation) in subtle ways. <br/> <br/> This talk will give you a short deep dive into the HotSpot Virtual Machine using the example of HotSpot intrinsics. It will explain how they are implemented and the implications this has for the Java VM. Finally, it will demonstrate how you can add a new intrinsic for your favorite Java method."
+      }
+    ]
+  },
+  "tomasz_nurkiewicz": {
+    "name": "Tomasz Nurkiewicz",
+    "image": "pages/speakers/images/tomasz_nurkiewicz.jpg",
+    "bio": "<strong>Tomasz</strong> spent half of his life on programming, for the last decade professionally in Java land. Loves back-end, tolerates JavaScript. Passionate about alternative JVM languages. Disappointed with the quality of software written these days (so often by himself!), hates long methods and hidden side effects. Interested in charting, data analysis and reporting. Believes that computers were invented so that developers can automate boring and repetitive tasks. Also their own. <br/> On a daily basis works in financial sector. Involved in open-source, DZone’s Most Valuable Blogger, used to be very active on StackOverflow. Author, trainer, conference speaker, technical reviewer, runner. Claims that code not tested automatically is not a feature but just a rumour. Currently writing a book <a href=\"http://shop.oreilly.com/product/0636920042228.do\" target=\"_blank\">Reactive Programming with RxJava</a> for O'Reilly.",
+    "talks": [
+      {
+        "topic": "RxJava in legacy projects",
+        "abstract": "If you ever approached RxJava before you might come to a conclusion that this library solves problems most of us don't have. Reactively composing streams of data, virtual time, marble diagrams and event-driven programming - where most of our code is pretty much just transferring data from database to presentation layer. <br/> During this live coding session there will not be a single slide, we start with empty IDE to step-by-step implement key constructs in RxJava. Most importantly we will discover how this high-level abstraction can help in existing projects. When to use RxJava, what problems does it solve and when using it is an excess of form over substance. <br/> We will learn how to build highly reliable and concurrent applications, improve throughput and resource utilization without hurting readability and avoiding complexity."
+      }
+    ]
+  },
+  "rustam_mehmandarov": {
+    "name": "Rustam Mehmandarov",
+    "image": "pages/speakers/images/rustam_mehmandarov.jpg",
+    "bio": "<strong>Rustam</strong> is the leader of the Norwegian Java User Group - <a href=\"http://java.no\" target=\"_blank\">javaBin</a>, and a competency network coordinator for databases and information management at work. One of the organizers of <a href=\"https://javazone.no\" target=\"_blank\">JavaZone</a> and <a href=\"http://ariot.no\" target=\"_blank\">Arctic IoT Challenge</a>. Speaker. He holds a master’s degree in Computer Science from the University of Oslo, and he has been working as a developer, lead programmer and architect for over 10 years. In addition to being passionate about agile development, web development, architecture and geographical information systems, he is also a guru of both Linux and Windows worlds. On his spare time he enjoys working out, as well as coding in Python and Java (but not simultaneously). Rustam frequently speaks at both national and international conferences, and events at various Norwegian universities.",
+    "talks": [
+      {
+        "topic": "Field Notes of a Command Line Ninja",
+        "abstract": "Ever wished you had superpowers? Ninja superpowers! So you can move swiftly across the keyboard, enjoy an arsenal of effective tools, and make tedious and mundane tasks fun? <br/> Have you ever witnessed someone write fancy commands and perform magic from the console. Have you ever wished you could learn, or brush up on, those skills too? Maybe you want to be more effective at your everyday tasks, or need a new topic for the next family dinner? <br/> Join us and learn some awesome command line ninja skills. You will be able to find something new no matter your level of experience. The audience will get a chance to show off their skills as well! <br/> You can bring your PC/Mac with you and hack-along! Linux, Mac or Windows (with Cygwin)."
+      }
+    ]
+  },
+  "philipp_krenn": {
+    "name": "Philipp Krenn",
+    "image": "pages/speakers/images/philipp_krenn.jpg",
+    "bio": "<strong>Philipp</strong> is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
+    "talks": [
+      {
+        "topic": "Full-Text Search Explained",
+        "abstract": "Today’s applications are expected to provide powerful full-text search. But how does that work in general and how do I implement it on my site or in my application? <br/> Actually, this is not as hard as it sounds at first. This talk covers: <ul><li> How full-text search works in general and what the differences to databases are. </li> <li> How the score or quality of a search result is calculated. </li> <li> How to implement this with Elasticsearch. </li> </ul> Attendees will learn how to add common search patterns to their applications without breaking a sweat."
+      }
+    ]
+  },
+  "nikita_lipsky": {
+    "name": "Nikita Lipsky",
+    "image": "pages/speakers/images/nikita_lipsky.jpg",
+    "bio": "<strong>Nikita</strong> is an initiator and a product lead of Excelsior JET project – certified Java SE implementation (JVM) with AOT compiler developed by Excelsior LLC. Working on the project since 1997 he took part in almost every activity of the project from the JVM core to product management and support. He is also experimenting (in a spare time) with open source projects exploring approaches and a concept of the next web.",
+    "talks": [
+      {
+        "topic": "Java 8 Support at the JVM Level",
+        "abstract": "Java SE 8 has brought lambdas, default methods, type annotations, compact profiles, etc. As a result, the Java SE platform specification was changed to reflect new features. <br/> The session shows how the new Java 8 features have been implemented in Excelsior JET JVM, written from scratch, very different from the Oracle HotSpot JVM, but compatible with the Java SE specification. <br/> As a result, an attendee will refresh his/her memory regarding new Java 8 features, will learn how they affected the JVM specification, how the lambda expressions are translated into Java bytecode and how they can be optimized at the JVM level."
+      }
+    ]
+  },
+  "tomer_gabel": {
+    "name": "Tomer Gabel",
+    "image": "pages/speakers/images/tomer_gabel.jpg",
+    "bio": "<strong>Tomer</strong> is a programming junkie and computer history aficionado. Tomer's been around the block a few times before settling at <a href=\"http://ru.wix.com\" target=\"_blank\">Wix</a> as a system architect. In the last few of years he's developed a major crush on Scala, promoting it within the Israeli software industry as part of <a href=\"http://meetup.com/JavaIL\" target=\"_blank\">Java.IL</a> (Israeli Java user group) and <a href=\"https://groups.google.com/forum/#!forum/underscore-il\" target=\"_blank\">Underscore</a> (Israeli Scala user group) and organizing the annual  <a href=\"http://scalapeno.org.il\" target=\"_blank\">Scalapeño</a> conference in Tel-Aviv.",
+    "talks": [
+      {
+        "topic": "How shit works: the CPU",
+        "abstract": "The beautiful thing about software engineering is that it gives you the warm and fuzzy illusion of total understanding: I control this machine because I know how it operates. This is the result of layers upon layers of successful abstractions, which hide immense sophistication and complexity. As with any abstraction, though, these sometimes leak, and that's when a good grounding in what's under the hood pays off. <br/> <br/> The second talk in this series peels a few layers of abstraction and takes a look under the hood of our \"car engine\", the CPU. While hardly anyone codes in assembly language anymore, your C# or JavaScript (or Scala or...) application still ends up executing machine code instructions on a processor; that is why Java has a memory model, why memory layout still matters at scale, and why you're usually free to ignore these considerations and go about your merry way. <br/> <br/> You'll come away knowing a little bit about a lot of different moving parts under the hood; after all, isn't understanding how the machine operates what this is all about?"
+      }
+    ]
+  },
+  "axel_fontaine": {
+    "name": "Axel Fontaine",
+    "image": "pages/speakers/images/axel_fontaine.jpg",
+    "bio": "<strong>Axel</strong> is the founder and CEO of <a href=\"https://boxfuse.com\" target=\"_blank\">Boxfuse</a>, the easiest way to deploy JVM, Node.js and Go applications to AWS. He is also the creator and project lead of <a href=\"https://flywaydb.org\" target=\"_blank\">Flyway</a>, the open-source tool that makes database migration easy. <br/> He is a Continuous Delivery and Immutable Infrastructure expert, a Java Champion, a JavaOne Rockstar and a regular speaker at many large international conferences. You can find him online at <a href=\"https://axelfontaine.com\" target=\"_blank\">axelfontaine.com</a> and on <a href=\"https://twitter.com/axelfontaine\" target=\"_blank\">Twitter</a>",
+    "talks": [
+      {
+        "topic": "Immutable Infrastructure: Rise of the Machine Images",
+        "abstract": "The cloud is the new normal and it is time to rethink how we see machines and deployments. We have been piling layer upon layer of complexity for too long. But why should it be this way? It is time to radically simplify all this. <br/> <br/> In this talk, we'll throw general-purpose operating systems, snowflake servers and runtime provisioning out the door. Instead you'll see how servers become disposable, how machine images are generated from scratch in seconds and how to achieve perfect environment parity from dev to prod. <br/> <br/> This is Immutable Infrastructure. It is a profoundly important change as to how we view and treat our systems. We'll go deep. We'll look at how this affects scaling, logging, sessions, configuration, service discovery and more. We'll also look at how containers and machine images compare and why some things you took for granted may not be necessary anymore. <br/> But beware, neither sacred cows nor kittens will be spared!"
+      }
+    ]
+  },
+  "jaroslaw_ratajski": {
+    "name": "Jaroslaw Ratajski",
+    "image": "pages/speakers/images/jaroslaw_ratajski.jpg",
+    "bio": "He is a wizard. - He keeps systems alive even if they should not. <br/> He is an architect. - He will show you how to code without design patterns, big JEE servers, databases and all that useless stuff. <br/> He is a hacker. - He likes doing things you people wouldn't believe. <br/> He is a leader. - He only lets the team do their job. <br/> He is a detective. - He will find the problem ... even if there are not many clues. <br/> He is an engineer. - He will keep your JVM at top speed.",
+    "talks": [
+      {
+        "topic": "DROP DATABASE - galactic story",
+        "abstract": "So You thought databases might be useful. I will show You why this is ridiculous idea. <br/> Database is just the thing that kill performance of you system (100 times), destroys design and pollutes code. Besides it causes a great loss of information. Really, if you care about your data do not make a mistake and do not put them into Tables, JSONs or whatever. You can do it better. <br/> During the presentations you will see how to code systems NORMALLY and compare it to weird things such as Hibernate or JPA. You will learn that best place for your data is RAM !!! :-)  And this all from the guy who was writing JEE systems with SQL (and not only) for the last 15 years. This guy (me) was even kind of evangelist for JEE, and introduced Hibernate and JPA in a few companies. (I am do sorry for that). And we will be talking about facts. Code is <a href=\"https://github.com/airomem/galakpizza\" target=\"_blank\"> here </a>."
+      }
+    ]
+  },
+  "vladislav_zablotsky": {
+    "name": "Vladislav Zablotsky",
+    "image": "pages/speakers/images/vladislav_zablotsky.jpg",
+    "bio": "Vladislav came a long way from non IT guy to team lead. His path to Java was not so easy. He adapted html markup and debugged JavaScript using only alerts for IE6. Also he is guilty in php coding. At last he found himself in Java and looks like this ecosystem pretty comfortable for him. He doesn't want to stop, just need to move forward, develop skills, learn something new.",
+    "talks": [
+      {
+        "topic": "JDBC based frameworks racing",
+        "abstract": "There are more and more JDBC based frameworks each year every one of them promote itself as modern, fast and better than others in any way. But how all this can be applied in real life? Do we really know what price with respect to performance for next “more handy tool”? I’ve tried to test most popular frameworks against each other: native JDBC, EclipseLink, Hibernate, SpringJDBC, SpringData, MyBatis etc."
+      }
+    ]
+  }
+}

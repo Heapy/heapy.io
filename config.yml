@@ -1,0 +1,22 @@
+title: "Heapy - Free and Open-Source Software"
+baseURL: "https://heapy.io/"
+languageCode: "en-US"
+theme: heapy
+buildFuture: true
+
+params:
+  description: "Free and Open-Source Software"
+  author: "Ruslan Ibragimov"
+
+permalinks:
+  bjug: "bjug/:filename/"
+
+# Disable tags category
+taxonomies:
+  category: categories
+
+outputs:
+  section:
+    - "HTML"
+    - "RSS"
+    - "Calendar"

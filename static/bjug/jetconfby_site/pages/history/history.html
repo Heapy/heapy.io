@@ -1,0 +1,35 @@
+<div class="text-center" ng-controller="historyController">
+    <div class="row">
+        <div class="col-md-12 index-page-title">
+            HISTORY
+        </div>
+    </div>
+
+    <div class="row history-session-row">
+        <div class="col-md-4" ng-repeat="session in history.sessions">
+            <div class="history-track-column">
+                <div>
+                    <a class="history-speaker-name" href="#/{{speaker.action}}" ng-repeat="speaker in session.speakers">
+                        {{speaker.name}}
+                    </a>
+                </div>
+                <div>
+                    <a class="history-topic-name" href="#/{{session.action}}">
+                        {{session.topic}}
+                    </a>
+                </div>
+                <div>
+                    <a href="{{session.video}}" target="_blank">
+                        <img src="pages/index/images/icon_video.png">
+                    </a>
+                    <a ng-if="session.presentation !== undefined" href="{{session.presentation}}" target="_blank">
+                        <img src="pages/index/images/icon_presentation.png">
+                    </a>
+                    <a ng-if="session.code !== undefined" href="{{session.code}}" target="_blank">
+                        <img src="pages/index/images/icon_code.png">
+                    </a>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
