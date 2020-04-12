@@ -1,4 +1,7 @@
-language: minimal
+language: node_js
+
+node_js:
+  - 10
 
 addons:
   ssh_known_hosts: heapy.io
