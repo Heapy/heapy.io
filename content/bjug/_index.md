@@ -16,6 +16,10 @@ title: "BJUG Events"
 
 Этот сайт создан, чтобы публиковать события связанные с Java платформой в Беларуси.
 
+### Как добавить событие?
+
+Добавить новый файл по аналогии с существующим, [пример](https://github.com/Heapy/heapy.io/blob/master/content/bjug/java-professionals-by-20.md).
+
 ### Список конференций и сообществ Belarus Java User Group
 
 * [Java Professionals By](http://jprof.by/)
@@ -24,12 +28,3 @@ title: "BJUG Events"
 * [Java Day](http://javaday.by/)
 * [Altoros JUG](http://belarusjug.org/)
 * [Epam Java Tech Talks](https://events.epam.com/)
-
-
-### Как обновить текущую страницу?
-
-Отредактировать [файл](https://github.com/Heapy/heapy.io/tree/master/content/bjug/_index.md)
-
-### Как добавить событие?
-
-Добавить новый файл по аналогии с существующим, [пример](https://github.com/Heapy/heapy.io/blob/master/content/bjug/java-professionals-by-20.md).
