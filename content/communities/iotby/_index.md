@@ -1,6 +1,6 @@
 ---
 name: "IoT Belarus"
 topics: ""
-image: "oitby/oitby.png"
+image: "iotby/iotby.jpg"
 link: "https://www.facebook.com/groups/iot.belarus.community/"
 ---
