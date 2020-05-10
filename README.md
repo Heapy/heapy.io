@@ -4,5 +4,4 @@
 
 1. Clone this repo
 2. Install [Hugo](https://gohugo.io/)
-3. Open terminal in `site` folder
-4. Run `hugo server --buildFuture` and open link that appears in terminal 
+3. Run `hugo server --buildFuture` and open link that appears in terminal 
