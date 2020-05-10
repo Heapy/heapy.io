@@ -6,4 +6,6 @@ links:
     site: "https://bygis.by/"
     rss: "https://bygis.by/atom.xml"
     github: "https://github.com/bygis/"
+    telegram: "https://t.me/bygis"
+    facebook: "https://www.facebook.com/groups/bygis/"
 ---
