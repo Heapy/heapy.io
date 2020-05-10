@@ -1,72 +1,75 @@
-{{ $t := now }}
-
+{{ $t := now.Unix }}
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.Params.lang }}">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="referrer" content="no-referrer">
-
   <meta name="author" content="{{ .Site.Params.author }}">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
   {{ template "_internal/opengraph.html" . }}
 
-  <title>
-    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-    {{ if eq $url "/" }}
-      {{ .Site.Title }}
-    {{ else }}
-      {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
-    {{ end }}
-  </title>
+  {{ $url := replace .Permalink (printf "%s" .Site.BaseURL) "" }}
+  {{ if eq $url "/" }}
+    <title>{{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</title>
+  {{ end }}
+
   <link rel="canonical" href="{{ .Permalink }}">
 
-  <link rel="stylesheet" href="/css/bulma.min.css?t={{$t}}">
+  <link rel="stylesheet" href="/css/bulma.min.css?t={{ $t }}">
 
-  <!-- https://github.com/audreyr/favicon-cheat-sheet -->
+  {{/* https://github.com/audreyr/favicon-cheat-sheet */}}
   <meta name="msapplication-TileColor" content="#FFFFFF"/>
-  <meta name="msapplication-TileImage" content="/favicon-144.png?t={{$t}}"/>
-  <link rel="mask-icon" href="/mask-favicon.svg?t={{$t}}" color="#252525"/>
-  <link rel="shortcut icon" href="/favicon.ico?t={{$t}}" type="image/x-icon"/>
-  <link rel="shortcut icon" href="/favicon.svg?t={{$t}}" type="image/svg+xml"/>
-  <link rel="shortcut icon" href="/favicon-16.png?t={{$t}}" sizes="16x16" type="image/png"/>
-  <link rel="shortcut icon" href="/favicon-32.png?t={{$t}}" sizes="32x32" type="image/png"/>
-  <link rel="shortcut icon" href="/favicon-196.png?t={{$t}}" sizes="196x196" type="image/png"/>
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon-57.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon-76.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon-120.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon-144.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/favicon-180.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" sizes="196x196" href="/favicon-196.png?t={{$t}}"/>
-  <link rel="apple-touch-icon-precomposed" href="/favicon-180.png?t={{$t}}"/>
+  <meta name="msapplication-TileImage" content="/favicon-144.png?t={{ $t }}"/>
+  <link rel="mask-icon" href="/mask-favicon.svg?t={{ $t }}" color="#252525"/>
+  <link rel="shortcut icon" href="/favicon.ico?t={{ $t }}" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/favicon.svg?t={{ $t }}" type="image/svg+xml"/>
+  <link rel="shortcut icon" href="/favicon-16.png?t={{ $t }}" sizes="16x16" type="image/png"/>
+  <link rel="shortcut icon" href="/favicon-32.png?t={{ $t }}" sizes="32x32" type="image/png"/>
+  <link rel="shortcut icon" href="/favicon-196.png?t={{ $t }}" sizes="196x196" type="image/png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon-57.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicon-76.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicon-120.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon-144.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/favicon-180.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" sizes="196x196" href="/favicon-196.png?t={{ $t }}"/>
+  <link rel="apple-touch-icon-precomposed" href="/favicon-180.png?t={{ $t }}"/>
 
   <link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
 </head>
+<body class="has-navbar-fixed-top">
 
-
-
-<body lang="{{ .Site.Params.lang }}">
-
-<section class="header">
+<nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="content">
-      <nav>
-        <ul>
-          {{ range .Site.Menus.main }}
-            <li class="nav-{{ .Identifier }}">
-              <a href="{{ .URL | absLangURL }}">{{ .Pre }}<span>{{ .Name }}</span></a>
-            </li>
-          {{ end }}
-        </ul>
-      </nav>
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/logo.svg" width="28" height="28" alt="Logo"/>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="main-menu" class="navbar-menu">
+      <div class="navbar-start">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <a href="{{ .URL | absLangURL }}" class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
+            {{ .Name }}
+          </a>
+        {{ end }}
+      </div>
     </div>
   </div>
-</section>
-
+</nav>
 

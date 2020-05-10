@@ -1,4 +1,6 @@
 {{ partial "header.gohtml" . }}
+{{ partial "hero.gohtml" . }}
+
 <style>
   .content .post-item {
     display: -webkit-flex;
@@ -59,15 +61,10 @@
     flex: auto;
   }
 </style>
-<section class="main">
-  <div class="container">
+
+<section class="section">
+  <article class="container">
     <div class="content">
-      {{ if .Content }}
-        <div class="markdown">
-          {{ .Content }}
-        </div>
-      {{ end }}
-      <h2 class="page-heading">BJUG Events</h2>
       {{ range .Data.Pages.ByPublishDate.GroupByDate "2006" "desc" }}
         <h3 class="post-item no-bullet">
           <span class="date">{{ .Key }}</span>
@@ -84,7 +81,15 @@
         </ul>
       {{ end }}
     </div>
-  </div>
+  </article>
 </section>
+
+<section class="section">
+  <article class="container content is-medium">
+    {{ .Content }}
+  </article>
+</section>
+
+
 {{ partial "footer.gohtml" . }}
 

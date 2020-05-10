@@ -1,0 +1,14 @@
+<header class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ .Title }}
+      </h1>
+      {{ with .Description }}
+        <h2 class="subtitle">
+          {{ . }}
+        </h2>
+      {{ end }}
+    </div>
+  </div>
+</header>
