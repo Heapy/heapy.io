@@ -1,66 +1,61 @@
 {{ partial "header.gohtml" . }}
 {{ partial "hero.gohtml" . }}
 
-<style>
-  .content .post-item {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: flex;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    display: list-item;
-    list-style: disc inside;
-  }
+{{ define "add_to_head_bjug" }}
+  <style>
+    .content .post-item {
+      display: flex;
+      align-items: center;
+      list-style: disc inside;
+    }
 
-  .content .post-item .meta {
-    color: #666;
-    display: none;
-    min-width: 100px;
-    text-align: right;
-    margin-right: 16px;
-  }
+    .content .post-item .meta {
+      color: #666;
+      display: none;
+      min-width: 100px;
+      text-align: right;
+      margin-right: 16px;
+    }
 
-  .content .no-bullet {
-    color: transparent;
-    font-style: oblique;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
+    .content .no-bullet {
+      color: transparent;
+      font-style: oblique;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
 
-  .content .no-bullet .date {
-    font-size: 18px;
-    font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
-    letter-spacing: -0.005rem;
-    font-weight: 700;
-    color: #666 !important;
-    font-style: normal;
-  }
-  /* Show dates on small screens */
-  .content .post-item .meta {
-    display: inline-block;
-    align-self: baseline;
-  }
+    .content .no-bullet .date {
+      font-size: 18px;
+      font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+      letter-spacing: -0.005rem;
+      font-weight: 700;
+      color: #666 !important;
+      font-style: normal;
+    }
 
-  /* Don't show list styles on small screens */
-  .content .post-item {
-    display: flex;
-    margin-bottom: 0.5rem;
-    list-style: none;
-  }
+    /* Show dates on small screens */
+    .content .post-item .meta {
+      display: inline-block;
+      align-self: baseline;
+    }
 
-  .content .post-item .meta {
-    margin-right: 0.7rem;
-    text-align: right;
-  }
+    /* Don't show list styles on small screens */
+    .content .post-item {
+      display: flex;
+      margin-bottom: 0.5rem;
+      list-style: none;
+    }
 
-  .content .post-item a {
-    flex: auto;
-  }
-</style>
+    .content .post-item .meta {
+      margin-right: 0.7rem;
+      text-align: right;
+    }
+
+    .content .post-item a {
+      flex: auto;
+    }
+  </style>
+{{ end }}
 
 <section class="section">
   <article class="container">

@@ -1,5 +1,6 @@
 ---
-title: "BJUG Events"
+title: "BJUG"
+description: "События Belarus Java User Group"
 ---
 
 ### Что мы делаем
@@ -26,5 +27,6 @@ title: "BJUG Events"
 * [JET Conf](https://heapy.io/bjug/jetconf)
 * [Belarus Kotlin User Group](https://bkug.by/)
 * [Java Day](http://javaday.by/)
+* [JFuture](https://jfuture.dev/)
 * [Altoros JUG](http://belarusjug.org/)
 * [Epam Java Tech Talks](https://events.epam.com/)

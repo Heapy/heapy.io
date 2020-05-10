@@ -43,6 +43,8 @@
   <link rel="apple-touch-icon-precomposed" href="/favicon-180.png?t={{ $t }}"/>
 
   <link href="{{ with .OutputFormats.Get "RSS" }}{{ .Permalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+  {{ block "add_to_head_communities" . }}{{ end }}
+  {{ block "add_to_head_bjug" . }}{{ end }}
 </head>
 <body class="has-navbar-fixed-top">
 

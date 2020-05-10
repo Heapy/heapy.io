@@ -1,0 +1,52 @@
+{{ partial "header.gohtml" . }}
+{{ partial "hero.gohtml" . }}
+
+{{ define "add_to_head_communities" }}
+  <style>
+    .community {
+      margin-bottom: 40px;
+    }
+
+    .community_logo {
+      display: flex;
+      justify-content: center;
+    }
+
+    .community_logo img {
+      max-height: 120px;
+      max-width: 200px;
+    }
+
+    .community_name {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  </style>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+      {{ range .Data.Pages.ByParam "name" }}
+        {{ if .Params.Link }}
+          <div class="column is-one-quarter community">
+            <div class="community_logo">
+              <img src="{{ .Params.Image }}" alt="Logo: {{ .Params.Name }}"/>
+            </div>
+            <p class="community_name">
+              <a href="{{ .Params.Link }}">{{ .Params.Name }}</a>
+            </p>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <article class="container content is-medium">
+    {{ .Content }}
+  </article>
+</section>
+
+{{ partial "footer.gohtml" . }}
