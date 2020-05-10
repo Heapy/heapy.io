@@ -590,10 +590,10 @@ function meta(name: string, session: Session): string {
 }
 
 function renderPage(sessions: string, speakers: string) {
-    return `+++
-date = "2017-12-13T21:02:04+03:00"
-title = "JetConf"
-+++
+    return `---
+date: "2017-12-13T21:02:04+03:00"
+title: "JetConf"
+---
 
 Архив докладов с сайта <a href="http://jetconf.by/">jetconf.by</a>.
 Belarus Java User Group не имеет никакого отношения к JetConf.

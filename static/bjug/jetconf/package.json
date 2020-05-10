@@ -11,6 +11,6 @@
     "typescript": "^2.6.2"
   },
   "scripts": {
-    "start": "ts-node .script.ts"
+    "start": "ts-node script.ts"
   }
 }
