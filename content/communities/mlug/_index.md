@@ -1,6 +1,8 @@
 ---
-name: "MLUG (Minsk Linux User Group)"
+name: "Minsk Linux User Group"
 topics: "Linux"
 image: "mlug/mlug.png"
-link: "http://mlug.linux.by/"
+links: 
+    site: "https://mlug.linux.by/"
+    facebook: "https://www.facebook.com/Belarus-Linux-Community-1899584153633965/"
 ---

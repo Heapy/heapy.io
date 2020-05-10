@@ -2,5 +2,9 @@
 name: "BRUG"
 topics: "Ruby-разработка"
 image: "brug/brug.png"
-link: "http://brug.by/"
+links: 
+    site: "http://brug.by/"
+    vk: "https://vk.com/belarusrubyusergroup"
+    facebook: "https://www.facebook.com/ByRoR/"
+company: Altoros
 ---

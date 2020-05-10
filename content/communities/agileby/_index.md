@@ -1,6 +1,8 @@
 ---
-name: "Agile.by"
+name: "Agile Belarus Community"
 topics: "Scrum, agile"
-image: "agileby/agileby.png"
-link: "http://agile.by/"
+image: "agileby/agileby.jpg"
+links:
+    site: "https://agile-community.by/"
+    facebook: "https://www.facebook.com/agileby"
 ---

@@ -28,14 +28,17 @@
   <div class="container">
     <div class="columns is-multiline">
       {{ range .Data.Pages.ByParam "name" }}
-        {{ if .Params.Link }}
+        {{ if .Params.Links }}
           <div class="column is-one-quarter community">
             <div class="community_logo">
               <img src="{{ .Params.Image }}" alt="Logo: {{ .Params.Name }}"/>
             </div>
-            <p class="community_name">
-              <a href="{{ .Params.Link }}">{{ .Params.Name }}</a>
-            </p>
+              <ul class="community_name">
+                <li>{{ .Params.Name }}</li>
+                {{ range $key, $val := .Params.Links }}
+                  <li><a href="{{ $val }}">{{ $key }}</a></li>
+                {{ end }}
+              </ul>
           </div>
         {{ end }}
       {{ end }}

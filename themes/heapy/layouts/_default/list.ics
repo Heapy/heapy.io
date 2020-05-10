@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//heapy-io//bjug calendar//EN
+PRODID:-//heapy-io//{{ .CurrentSection.Section }} calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 {{ range .Pages -}}

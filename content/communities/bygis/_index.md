@@ -2,5 +2,8 @@
 name: "byGIS"
 topics: "GIS tech, DB, engineering"
 image: "bygis/bygis.png"
-link: "https://bygis.by/"
+links: 
+    site: "https://bygis.by/"
+    rss: "https://bygis.by/atom.xml"
+    github: "https://github.com/bygis/"
 ---
