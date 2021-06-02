@@ -1,4 +1,4 @@
-# Heapy.io [![Build Status](https://travis-ci.com/Heapy/heapy.io.svg?branch=master)](https://travis-ci.com/Heapy/heapy.io)
+# Heapy.io [![Build](https://github.com/Heapy/heapy.io/actions/workflows/build.yml/badge.svg)](https://github.com/Heapy/heapy.io/actions/workflows/build.yml)
 
 ## How to run site locally
 
